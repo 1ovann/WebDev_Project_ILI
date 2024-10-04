@@ -5,3 +5,4 @@ node_modules
 dist
 .cache
 LICENSE.txt
+.idea/workspace.xml
