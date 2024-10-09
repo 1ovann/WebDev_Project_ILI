@@ -31,21 +31,22 @@
       left: 20px;
     }
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
-
     nav ul li {
-      margin: 0 15px;
+    margin: 0 15px;
+    display: inline-block; /* Ensure the list items are inline */
     }
 
     nav ul li a {
-      text-decoration: none;
-      color: #000;
-      font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s; /* Added transition for transform */
+    }
+
+    nav ul li a:hover {
+    color: #007bff;
+    transform: scale(1.1); /* Increase the size on hover */
+    display: inline-block; /* Ensure the anchor tag respects the transform */
     }
 
     main {
