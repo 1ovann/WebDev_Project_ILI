@@ -6,3 +6,4 @@ dist
 .cache
 LICENSE.txt
 .idea/workspace.xml
+.DS_Store
