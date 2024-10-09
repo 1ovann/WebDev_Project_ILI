@@ -7,3 +7,6 @@ dist
 LICENSE.txt
 .idea/workspace.xml
 debug.log
+.idea/vcs.xml
+.idea/WebDev_Project_ILI.iml
+.idea/modules.xml
