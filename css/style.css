@@ -126,7 +126,9 @@ main {
 .carousel .right-arrow {
   right: 0;
 }
-
+body {
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
 .carousel .left-arrow:hover,
 .carousel .right-arrow:hover {
   transform: translateY(-50%) scale(1.2);
