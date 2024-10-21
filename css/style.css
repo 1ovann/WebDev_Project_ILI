@@ -101,13 +101,30 @@ main {
   opacity: 0.6;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
+/* Adjusted arrow styles for extended clickable area */
+.carousel .left-arrow, .carousel .right-arrow {
+  position: absolute;
+  top: 50%; /* Align the top of the button with the top of the carousel */
+  height: 100%; /* Full height of the carousel */
+  width: 50px; /* Width of the clickable area */
+  font-size: 36px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  color: #333;
+  opacity: 0.6;
+  display: flex; /* Flexbox to center the arrow icon */
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
 .carousel .left-arrow {
-  left: -600px;
+  left: 0;
 }
 
 .carousel .right-arrow {
-  right: -600px;
+  right: 0;
 }
 
 .carousel .left-arrow:hover,
