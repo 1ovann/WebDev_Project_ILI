@@ -1,13 +1,48 @@
-/* General styles for all pages */
+/* General Page Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  height: 100vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
 }
 
+main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Header Styles */
 header {
   display: flex;
   justify-content: center;
@@ -25,6 +60,7 @@ header .logo {
   left: 20px;
 }
 
+/* Navbar Styles */
 nav ul {
   list-style: none;
   display: flex;
@@ -50,115 +86,68 @@ nav ul li a:hover {
   display: inline-block;
 }
 
-/* Main content - Center content from bottom to top */
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Align content towards the bottom */
-  align-items: center; /* Center horizontally */
-  flex-grow: 1;
-  text-align: center;
-  padding-bottom: 20px; /* Space between the bottom of the page and the content */
+/* Carousel Styles */
+#hero-carousel {
+  padding-top: 5vh;
 }
 
-/* Carousel specific styles */
-.carousel {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  width: 100%;
-  background-color: #f4f4f4;
-  margin: 20px 0;
-}
-
-.carousel div {
-  max-width: 565px;
-  padding: 20px;
-  text-align: center;
-}
-
-.carousel h2 {
-  margin-bottom: 10px;
-}
-
-.carousel p {
-  line-height: 1.6;
-}
-
-/* Adjusted arrow styles for proper alignment */
-.carousel .left-arrow, .carousel .right-arrow {
+.carousel-control-next, .carousel-control-prev {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  font-size: 36px;
-  cursor: pointer;
-  background: none;
-  border: none;
-  outline: none;
-  color: #333;
-  opacity: 0.6;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-/* Adjusted arrow styles for extended clickable area */
-.carousel .left-arrow, .carousel .right-arrow {
-  position: absolute;
-  top: 50%; 
-  height: 100%; 
-  width: 50px; 
-  font-size: 36px;
-  cursor: pointer;
-  background: none;
-  border: none;
-  outline: none;
-  color: #333;
-  opacity: 0.6;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.carousel .left-arrow {
-  left: 0;
-}
-
-.carousel .right-arrow {
-  right: 0;
-}
-
-body {
-  overflow-x: hidden; /* Disable horizontal scroll */
-}
-.carousel .left-arrow:hover,
-.carousel .right-arrow:hover {
-  transform: translateY(-50%) scale(1.2);
-  opacity: 0.9;
-}
-
-/* Footer styles */
-footer {
+  bottom: 0;
+  z-index: 1;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  transform: translateY(-50%);
+  height: 0;
 }
 
-.footer-links {
-  text-align: left;
-  font-size: 12px;
-  width: 100%;
-  background-color: #ddd;
-  padding: 10px 0;
+.c-item {
+  height: 73vh; 
 }
 
-.footer-links a {
-  margin: 0 5px;
-  text-decoration: none;
-  color: #171313;
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
 }
 
-/* About page styles */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 10rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.text-uppercase {
+  color: #fff;
+}
+
+/* About Page Styles */
+.AboutPage {
+  padding-top: 10vh;
+}
+
 blockquote {
   font-size: 24px;
   font-style: italic;
@@ -168,7 +157,7 @@ blockquote {
   color: #555;
 }
 
-/* Contact page styles */
+/* Contact Page Styles */
 .contact-form {
   max-width: 500px;
   width: 100%;
@@ -178,29 +167,10 @@ blockquote {
   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
+  margin-top: 10vh;
 }
 
-h1 {
-  margin-bottom: 20px;
-  color: #333;
-  text-align: center;
-}
-
-p {
-  margin-bottom: 20px;
-  color: #666;
-  text-align: center;
-}
-
-main {
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-input, textarea {
+.btn-contact {
   margin-bottom: 15px;
   padding: 12px;
   font-size: 16px;
@@ -208,21 +178,69 @@ input, textarea {
   border-radius: 5px;
   width: 100%;
   box-sizing: border-box;
-}
-
-button {
-  padding: 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #036dde;
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+.footer-content {
+  background-color: #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  font-size: 16px;
-  transition: background-color 0.3s;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.menu, .social-icon {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
+.social-icon__item, .menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 1.5rem;
+  color: #171313;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1rem;
+  color: #171313;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #171313;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0 10px;
+}

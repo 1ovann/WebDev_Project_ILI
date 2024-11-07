@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <title>Wheels on Fire</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,7 +15,7 @@
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="collection.html">Collection</a></li>
+      <li><a href="/pages/collection.html">Collection</a></li>
       <li><a href="perfect-car-finder.html">Perfect Car Finder</a></li>
       <li><a href="pages/about.html">About John</a></li>
       <li><a href="pages/contact.html">Contact</a></li>
@@ -21,34 +23,85 @@
   </nav>
 </header>
 
-<div class="carousel home-carousel">
-  <button class="left-arrow">&lt;</button> <!-- Updated arrow symbols -->
-  <div class="carousel-content">
-    <h2>Welcome to Wheels on Fire</h2>
-    <p>Where perfection is parked, and your dream car’s already warmed up. Whether you're here to find the ultimate ride or just drool over mine, buckle up – this journey comes with a little horsepower... and a lot of sarcasm.</p>
-  </div>
-  <button class="right-arrow">&gt;</button> <!-- Updated arrow symbols -->
-</div>
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button1" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button1" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button1" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-<footer>
-  <div class="connect-with-john">
-    <p>Connect with John</p>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="https://www.topgear.com/sites/default/files/2021/10/DSC05183-3.jpg" class="d-block w-100 c-img" alt="Slide 1">
+        <div class="carousel-caption top-0 mt-4">
+          <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
+          <h1 class="display-1 fw-bolder text-capitalize">The Aurora Tours</h1>
+          <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Book a tour</button>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/024/692/084/small_2x/ai-generated-ai-generative-vintage-retro-classic-car-porsche-minimal-luxury-expensive-super-car-graphic-art-photo.jpg" class="d-block w-100 c-img" alt="Slide 2">
+        <div class="carousel-caption top-0 mt-4">
+          <p class="text-uppercase fs-3 mt-5">The season has arrived</p>
+          <p class="display-1 fw-bolder text-capitalize">3 available tours</p>
+          <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+            data-bs-target="#booking-modal">Book a tour</button>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="https://classicandsportscar.ltd.uk/images/2022/11/lg/aston-martin-db6_59387.jpg" class="d-block w-100 c-img" alt="Slide 3">
+        <div class="carousel-caption top-0 mt-4">
+          <p  class="text-uppercase fs-3 mt-5">Destination activities</p>
+          <p class="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
+          <button class="btn btn-primary px-4 py-2 fs-5 mt-5" style="width: 200px;" data-bs-toggle="modal"
+            data-bs-target="#booking-modal">Book a tour</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
-  <div class="social-icons">
-    <span>○</span>
-    <span>○</span>
-    <span>○</span>
-    <span>○</span>
-  </div>
-
-  <div class="footer-links">
-    <a href="faq.html">FAQ</a> |
-    <a href="privacy.html">Privacy & Cookie Policy</a> |
-    <a href="terms.html">Terms of Use</a> |
-    <a href="accessibility.html">Web Accessibility</a>
+<footer class="footer">
+  <div class="footer-content">
+    <!-- Menu Links -->
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    </ul>
+    
+    <!-- Social Icons -->
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    
+    <!-- Copyright -->
+    <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
   </div>
 </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
