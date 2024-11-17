@@ -1,3 +1,4 @@
+
 /* General Page Styles */
 body {
   font-family: Arial, sans-serif;
@@ -123,13 +124,13 @@ nav ul li a:hover {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 10rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
+  top: 70%; /* Move text and button lower */
+  transform: translateY(-50%);
   text-align: center;
+}
+
+.carousel-caption button {
+  white-space: nowrap;
 }
 
 .display-1 {
@@ -145,7 +146,7 @@ nav ul li a:hover {
 
 /* About Page Styles */
 .AboutPage {
-  padding-top: 10vh;
+  padding-top: 1vh;
 }
 
 blockquote {
@@ -200,10 +201,14 @@ blockquote {
   padding: 10px 0px;
 }
 
-.menu, .social-icon {
+.menu {
+  display: none; /* Hides the navigation menu in the footer */
+}
+
+.social-icon {
   display: flex;
   align-items: center;
-  margin: 0;
+  margin: 0 auto; /* Centers the messenger icons */
   padding: 0;
 }
 
@@ -239,8 +244,46 @@ blockquote {
 }
 
 .footer p {
-  color: #171313;
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin: 0 10px;
+  display: none; /* Hides the footer text */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .carousel-caption {
+    padding-top: 5rem;
+    font-size: 1rem;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .btn-contact {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-item {
+    height: 50vh;
+  }
+  
+  .display-1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header .logo {
+    font-size: 20px;
+  }
+  
+  .carousel-caption {
+    font-size: 0.8rem;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
