@@ -5,11 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>John's Car Collection</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     </head>
     <body>
 
         <header>
-            <div class="logo"><a href="../index.html">LOGO</a></div>
+          <div class="logo">
+            <a href="../index.html">
+              <img src="https://png.pngtree.com/png-vector/20220923/ourmid/pngtree-customized-sports-car-black-glyph-icon-sports-car-expensive-filled-vector-png-image_39271042.png" alt="logo" width="100px">
+            </a>
+          </div>
             <nav>
               <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -26,55 +32,49 @@
             <p>Explore some of the finest cars in John's collection, each with its unique story and style.</p>
           
             
-            <div class="car-collection">
-              
-              <div class="car-item">
-                
-              </div>
-              
-              <div class="car-item">
-                
-              </div>
-              
-              <div class="car-item">
-                
-              </div>
-              
-            </div>
+            <div id="collection-container"></div>
+
+            
+
           </main>
           
-          <footer class="footer">
-            <div class="footer-content">
-              <!-- Menu Links -->
-              <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-              </ul>
-              
-              <!-- Social Icons -->
-              <ul class="social-icon">
-                <li class="social-icon__item"><a class="social-icon__link" href="#">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                  </a></li>
-              </ul>
-              
-              <!-- Copyright -->
-              <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
-            </div>
-          </footer>
+          <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Careers</h3>
+                            <ul>
+                                <li><a href="#">Job openings</a></li>
+                                <li><a href="#">Employee success</a></li>
+                                <li><a href="#">Benefits</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Company Name © 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script src="/js/app.js"></script>
     </body>
 </html>
