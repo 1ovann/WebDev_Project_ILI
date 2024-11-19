@@ -164,6 +164,14 @@ nav ul li a:hover {
   height: 0;
 }
 
+.carousel-caption{
+  align-content: center;
+}
+
+#hero-carousel{
+  padding-top: 5vh;
+}
+
 .c-item {
   height: 74vh; 
 }
@@ -187,9 +195,7 @@ nav ul li a:hover {
 }
 
 /* About Page Styles */
-.AboutPage{
-  margin-top: 5rem;
-}
+
 
 blockquote {
   font-size: 24px;
@@ -200,17 +206,13 @@ blockquote {
   color: #555;
 }
 
-
-/* About Page Styles */
-
-blockquote {
-  font-size: 24px;
-  font-style: italic;
-  margin: 20px 0;
-  padding: 10px;
-  border-left: 3px solid #ccc;
-  color: #555;
+.AboutPage img {
+  border: 2px solid black; 
+  border-radius: 10px;
+  margin: 40px;
+  max-width: 100%;
 }
+
 
 /* Contact Page Styles */
   .contact-form {
@@ -351,6 +353,7 @@ blockquote {
 /* Container for collection items */
 #collection-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
