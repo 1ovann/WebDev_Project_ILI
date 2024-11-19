@@ -142,10 +142,7 @@ nav ul li a:hover {
 }
 
 /* Carousel Styles */
-* Carousel Styles */
-#hero-carousel {
-  padding-top: 5vh;
-}
+
 
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
@@ -171,6 +168,7 @@ nav ul li a:hover {
   height: 74vh; 
 }
 
+
 .c-img {
   height: 100%;
   object-fit: cover;
@@ -185,13 +183,12 @@ nav ul li a:hover {
 }
 
 .text-uppercase {
-  padding-top: 5vh;
   color: #fff;
 }
 
 /* About Page Styles */
-.AboutPage {
-  padding-top: 10vh;
+.AboutPage{
+  margin-top: 5rem;
 }
 
 blockquote {
@@ -205,9 +202,6 @@ blockquote {
 
 
 /* About Page Styles */
-.AboutPage {
-  padding-top: 1vh;
-}
 
 blockquote {
   font-size: 24px;
@@ -372,6 +366,7 @@ blockquote {
 }
 
 
+
 .collection-item img {
   max-width: 100%;
   border-radius: 8px;
@@ -432,7 +427,6 @@ blockquote {
 /* Responsive Design */
 @media (max-width: 1024px) {
   .carousel-caption {
-    padding-top: 5rem;
     font-size: 1rem;
   }
   
@@ -446,12 +440,9 @@ blockquote {
 }
 
 @media (max-width: 768px) {
-  .c-item {
-    height: 50vh;
-  }
   
   .display-1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -461,7 +452,7 @@ blockquote {
   }
   
   .carousel-caption {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   
   nav ul {
