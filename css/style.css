@@ -142,6 +142,7 @@ nav ul li a:hover {
 }
 
 /* Carousel Styles */
+* Carousel Styles */
 #hero-carousel {
   padding-top: 5vh;
 }
@@ -176,16 +177,6 @@ nav ul li a:hover {
   filter: brightness(0.6);
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 70%; /* Move text and button lower */
-  transform: translateY(-50%);
-  text-align: center;
-}
-
-.carousel-caption button {
-  white-space: nowrap;
-}
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -197,6 +188,21 @@ nav ul li a:hover {
   padding-top: 5vh;
   color: #fff;
 }
+
+/* About Page Styles */
+.AboutPage {
+  padding-top: 10vh;
+}
+
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 3px solid #ccc;
+  color: #555;
+}
+
 
 /* About Page Styles */
 .AboutPage {
