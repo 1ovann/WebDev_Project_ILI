@@ -166,6 +166,7 @@ nav ul li a:hover {
 
 .carousel-caption{
   align-content: center;
+  padding-top: 0  ;
 }
 
 #hero-carousel{
