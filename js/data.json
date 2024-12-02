@@ -1,20 +1,20 @@
 [
     {
       "id": 1,
-      "title": "Item One",
+      "title": "Lamborghini",
       "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item One"
+      "description": "640hp engine, icredible power, 0-100km/h just in 3.1 seconds"
     },
     {
       "id": 2,
-      "title": "Item Two",
-      "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item Two"
+      "title": "Rolls Royce",
+      "image": "https://hymanltd.com/wp-content/uploads/2014/10/4288.jpg",
+      "description": "Old British classic, Rolls Royce phantom"
     },
     {"id": 3,
-    "title": "Item three",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item three"
+    "title": "Ferrari",
+    "image": "https://i.redd.it/w7ksy3unnbfb1.jpg",
+    "description": "Ferrari 250 GT, Anyone knows Jordan Belfort? He owns one of those"
     },
     {"id": 4,
     "title": "Item four",

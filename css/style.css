@@ -83,37 +83,60 @@ header .logo {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
+    position: relative; /* Make header a relative container for dropdown menu */
   }
 
   header .logo {
     position: static;
   }
 
-  header nav ul {
+  /* Hamburger Menu */
+  .hamburger {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 20; /* Ensure it stays above dropdown menu */
+  }
+
+  .hamburger .line {
     width: 100%;
-    text-align: left;
-    display: none; /* Initially hide menu on small screens */
+    height: 4px;
+    background-color: #000;
+    border-radius: 2px;
+  }
+
+  /* Dropdown Menu */
+  header nav ul {
+    flex-direction: column; 
+    position: absolute; 
+    top: 60px; 
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Background color for the dropdown */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-height: 0; /* Initially hidden */
+    overflow: hidden; /* Prevent content from spilling out */
+    transition: max-height 0.3s ease-in-out; /* Smooth dropdown effect */
+    z-index: 10; /* Ensure it appears above other content */
   }
 
   header nav ul li {
-    width: 100%;
+    width: 100%; /* Full width for dropdown items */
+    padding: 10px 15px; /* Add spacing to dropdown items */
+    border-bottom: 1px solid #ddd; /* Optional divider for items */
   }
 
-  /* Show hamburger menu on small screens */
-  .hamburger {
-    display: flex;
-  }
-}
-
-/* Show menu when hamburger is clicked */
-@media (max-width: 768px) {
+  /* Show menu when hamburger is clicked */
   header nav ul.show {
-    display: flex;
+    max-height: 500px; /* Dynamically adjust to fit your content */
+    
   }
 }
+
+
 
 /* Navbar Styles */
 nav ul {

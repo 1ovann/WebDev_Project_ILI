@@ -33,7 +33,16 @@ async function loadCollection() {
   function toggleMenu() {
     const menu = document.getElementById('menu');
     menu.classList.toggle('show');
+    const content = document.querySelector('.carousel');
+    if (menu.classList.contains('show')) {
+      const menuHeight = menu.scrollHeight; 
+      content.style.marginTop = `${menuHeight}px`; 
+    } else {
+      content.style.marginTop = '0'; 
+    }
   }
+
+  
 
 
 
