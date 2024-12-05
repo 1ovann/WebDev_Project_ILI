@@ -9,7 +9,7 @@
       "id": 2,
       "title": "Rolls Royce",
       "image": "https://hymanltd.com/wp-content/uploads/2014/10/4288.jpg",
-      "description": "Old British classic, Rolls Royce phantom"
+      "description": "Old British classic, Rolls Royce Phantom"
     },
     {"id": 3,
     "title": "Ferrari",
@@ -17,62 +17,62 @@
     "description": "Ferrari 250 GT, Anyone knows Jordan Belfort? He owns one of those"
     },
     {"id": 4,
-    "title": "Item four",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item four"
+    "title": "Ford Mustang",
+    "image": "https://www.copart.co.uk/content/1970%20ford%20mustang%202.jpg",
+    "description": "the Mustang is the most famous American model of all time"
     },
     {"id": 5,
-    "title": "Item five",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item five"
+    "title": "Porsche 911",
+    "image": "https://images.opumo.com/wordpress/wp-content/uploads/2018/08/Opumo-Magazine-Banner-RETINA-1-10.jpg",
+    "description": "The Porsche 911 represents vintage driving at its best"
     },
     {
-      "id": 1,
-      "title": "Item One",
-      "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item One"
+      "id": 6,
+      "title": "Mercedes",
+      "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/14/3200x1655/1954-mercedes-300sl-gullwing-a_1.jpg?resize=980:*",
+      "description": "the SL 300 could travel at an eye-popping 160 miles per hour. 'Nobody expected something like that from Mercedes'"
     },
     {
-      "id": 2,
-      "title": "Item Two",
-      "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item Two"
+      "id": 7,
+      "title": "Volvo",
+      "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/18/3200x2473/gallery-1462570502-1967-volvo-1800s.jpg?resize=980:*",
+      "description": "The quirky Volvo P1800 was stylish enough for Roger Moore to drive one in the spy thriller TV series The Saint"
     },
-    {"id": 3,
-    "title": "Item three",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item three"
+    {"id": 8,
+    "title": "Acura NSX",
+    "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/14/2560x1706/2005-acura-nsx_1.jpg?resize=980:*",
+    "description": "Acura's halo car from 1990 to 2005, the NSX is young but mighty"
     },
-    {"id": 4,
-    "title": "Item four",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item four"
+    {"id": 9,
+    "title": "Cadillac",
+    "image": "https://www.velocityrestorations.com/assets/media/2871r-1959-cadillac-eldorado-800x512.webp",
+    "description": "Cadillac’s 1959 lineup is easily one of the most recognizable classic cars ever built"
     },
-    {"id": 5,
-    "title": "Item five",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item five"
-    },
-    {
-      "id": 1,
-      "title": "Item One",
-      "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item One"
+    {"id": 10,
+    "title": "Jaguar",
+    "image": "https://images.bauerhosting.com/marketing/sites/8/2022/12/e81f82b2-1163-4bd9-b90b-8e66c94f1912.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    "description": "Jaguar E-Type so known in the luxury automobile world"
     },
     {
-      "id": 2,
-      "title": "Item Two",
-      "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-      "description": "Description of Item Two"
+      "id": 11,
+      "title": "DeLorean",
+      "image": "https://cdn.motor1.com/images/mgl/lE6KPM/s1/1981-delorean-restoration.webp",
+      "description": "The DeLorean is famous for being Doc Brown’s time machine"
     },
-    {"id": 3,
-    "title": "Item three",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item three"
+    {
+      "id": 12,
+      "title": "BMW",
+      "image": "https://goauctionmpc.blob.core.windows.net/stock/883-10-medium.jpg?v=63799777756130",
+      "description": "BMW 320i Convertible, With their soft top and relatively modern German engineering, these can make great daily drivers"
     },
-    {"id": 4,
-    "title": "Item four",
-    "image": "https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg",
-    "description": "Description of Item four"
+    {"id": 13,
+    "title": "Aston Martin",
+    "image": "https://images.opumo.com/wordpress/wp-content/uploads/2022/09/opumo-7-25-1200x578.jpg",
+    "description": "Driven by the ultimate spy, how could this not be on the list. James Bond's car in Goldfinger (1964), it has been iconic ever since"
+    },
+    {"id": 14,
+    "title": "Chevrolet Corvette",
+    "image": "https://classicpromenade.com/wp-content/uploads/2021/06/classic-white-1974-chevrolet-corvette-c3-looks-brand-new-can-be-yours-for-18k-140065_1-5000x3750.jpg",
+    "description": "The emblem of Big Three muscle cars, the Chevy Corvette is the most collected vehicle in America"
   }
   ]
